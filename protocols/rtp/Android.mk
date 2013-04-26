@@ -7,6 +7,7 @@ LOCAL_SRC_FILES := \
  	src/rtcp_encoder.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := librtprtcp
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

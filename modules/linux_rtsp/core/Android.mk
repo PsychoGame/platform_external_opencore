@@ -5,6 +5,7 @@ LOCAL_SRC_FILES := \
  	src/pvmfrtspnodes.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvrtspinterface
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

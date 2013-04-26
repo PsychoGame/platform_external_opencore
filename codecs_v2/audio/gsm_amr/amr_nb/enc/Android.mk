@@ -62,6 +62,7 @@ LOCAL_SRC_FILES := \
  	src/gsmamr_encoder_wrapper.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvencoder_gsmamr
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS_MINUS_VISIBILITY)

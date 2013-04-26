@@ -5,6 +5,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
 	libpvmp4reginterface \
  	libpvmp4ffrecognizer
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libopencore_mp4localreg
 
 -include $(PV_TOP)/Android_platform_extras.mk

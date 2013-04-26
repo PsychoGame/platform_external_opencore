@@ -44,6 +44,7 @@ LOCAL_SRC_FILES := \
  	src/weight_amrwb_lpc.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvamrwbdecoder
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS_MINUS_VISIBILITY)

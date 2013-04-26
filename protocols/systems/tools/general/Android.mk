@@ -13,6 +13,7 @@ LOCAL_SRC_FILES := \
  	common/src/pvmf_file_data_source.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvgeneraltools
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

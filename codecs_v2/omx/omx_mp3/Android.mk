@@ -7,6 +7,7 @@ LOCAL_SRC_FILES := \
  	src/mp3_timestamp.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_mp3_component_lib
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

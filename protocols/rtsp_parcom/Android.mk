@@ -8,6 +8,7 @@ LOCAL_SRC_FILES := \
  	src/rtsp_par_com_message.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpv_rtsp_parcom
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

@@ -7,6 +7,7 @@ LOCAL_SRC_FILES := \
  	src/pvmf_jitter_buffer_node.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvjitterbuffernode
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

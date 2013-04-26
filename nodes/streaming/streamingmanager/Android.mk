@@ -11,6 +11,7 @@ LOCAL_SRC_FILES := \
  	src/../plugins/rtspunicast/src/pvmf_sm_fsp_rtsp_unicast.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvstreamingmanagernode
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

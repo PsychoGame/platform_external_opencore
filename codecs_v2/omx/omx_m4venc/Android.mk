@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := \
  	src/omx_mpeg4enc_component.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_m4venc_component_lib
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS_MINUS_VISIBILITY)

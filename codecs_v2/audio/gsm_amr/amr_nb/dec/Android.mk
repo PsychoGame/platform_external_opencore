@@ -40,6 +40,7 @@ LOCAL_SRC_FILES := \
  	src/wmf_to_ets.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvdecoder_gsmamr
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS_MINUS_VISIBILITY)

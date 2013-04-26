@@ -9,6 +9,7 @@ LOCAL_SRC_FILES := \
  	src/pvrtsp_client_engine_port.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvrtsp_cli_eng_node
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

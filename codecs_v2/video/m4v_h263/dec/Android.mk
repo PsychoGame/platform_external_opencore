@@ -38,6 +38,7 @@ LOCAL_SRC_FILES := \
  	src/zigzag_tab.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvmp4decoder
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

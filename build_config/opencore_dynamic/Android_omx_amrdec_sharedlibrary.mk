@@ -6,6 +6,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
  	libpvdecoder_gsmamr \
  	libpvamrwbdecoder
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_amrdec_sharedlibrary
 
 -include $(PV_TOP)/Android_platform_extras.mk

@@ -5,6 +5,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
 	libomx_mp3_component_lib \
  	libpvmp3
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_mp3dec_sharedlibrary
 
 -include $(PV_TOP)/Android_platform_extras.mk

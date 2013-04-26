@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := \
  	src/omx_avcenc_component.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_avcenc_component_lib
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

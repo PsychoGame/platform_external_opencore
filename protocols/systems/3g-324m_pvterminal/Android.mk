@@ -58,6 +58,7 @@ LOCAL_SRC_FILES := \
  	./h324/tsc/src/tsc_componentregistry.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpv324m
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

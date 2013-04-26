@@ -4,6 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_WHOLE_STATIC_LIBRARIES := \
  	libpvrtspreginterface
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libopencore_rtspreg
 
 -include $(PV_TOP)/Android_platform_extras.mk

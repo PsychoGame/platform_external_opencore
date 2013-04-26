@@ -5,6 +5,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
 	libpvdownloadmanagernode \
  	libpvdownloadinterface
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libopencore_download
 
 -include $(PV_TOP)/Android_platform_extras.mk

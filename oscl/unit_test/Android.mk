@@ -10,6 +10,7 @@ LOCAL_SRC_FILES := \
  	src/unit_test_args.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libunit_test
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

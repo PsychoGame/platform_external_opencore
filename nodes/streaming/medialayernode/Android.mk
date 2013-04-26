@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := \
  	src/pvmf_medialayer_port.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvmedialayernode
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

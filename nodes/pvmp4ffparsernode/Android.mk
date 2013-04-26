@@ -9,6 +9,7 @@ LOCAL_SRC_FILES := \
  	src/pvmf_mp4ffparser_node_cap_config.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvmp4ffparsernode
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

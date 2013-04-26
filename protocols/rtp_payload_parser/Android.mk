@@ -19,6 +19,7 @@ LOCAL_SRC_FILES := \
  	src/../rfc_3984/src/h264_payload_parser_factory.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := librtppayloadparser
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

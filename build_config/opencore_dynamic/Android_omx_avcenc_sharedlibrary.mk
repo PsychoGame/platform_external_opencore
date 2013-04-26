@@ -5,6 +5,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
 	libomx_avcenc_component_lib \
  	libpvavch264enc
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_avcenc_sharedlibrary
 
 -include $(PV_TOP)/Android_platform_extras.mk

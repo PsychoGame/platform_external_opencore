@@ -5,6 +5,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
 	libomx_amrenc_component_lib \
  	libpvencoder_gsmamr
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_amrenc_sharedlibrary
 
 -include $(PV_TOP)/Android_platform_extras.mk

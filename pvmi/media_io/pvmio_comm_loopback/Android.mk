@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := \
  	src/pvmi_mio_comm_data_buffer.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvmio_comm_loopback
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

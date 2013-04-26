@@ -5,6 +5,7 @@ LOCAL_SRC_FILES := \
  	src/pvmfmp4nodereg.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvmp4reginterface
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

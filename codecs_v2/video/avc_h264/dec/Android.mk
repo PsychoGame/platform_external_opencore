@@ -15,6 +15,7 @@ LOCAL_SRC_FILES := \
  	src/vlc.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvavcdecoder
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

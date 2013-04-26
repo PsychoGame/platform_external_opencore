@@ -9,6 +9,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
     libpvmio_comm_loopback \
     libpvgeneraltools
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libopencore_2way
 
 LOCAL_PRELINK_MODULE := false

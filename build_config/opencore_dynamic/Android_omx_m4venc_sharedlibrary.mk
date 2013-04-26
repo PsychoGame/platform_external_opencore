@@ -5,6 +5,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
 	libomx_m4venc_component_lib \
  	libpvm4vencoder
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_m4venc_sharedlibrary
 
 -include $(PV_TOP)/Android_platform_extras.mk

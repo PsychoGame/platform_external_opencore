@@ -5,6 +5,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
 	libomx_m4v_component_lib \
  	libpvmp4decoder
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_m4vdec_sharedlibrary
 
 -include $(PV_TOP)/Android_platform_extras.mk

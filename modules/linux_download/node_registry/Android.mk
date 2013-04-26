@@ -5,6 +5,7 @@ LOCAL_SRC_FILES := \
  	src/pvmfdownloadnodereg.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvdownloadreginterface
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

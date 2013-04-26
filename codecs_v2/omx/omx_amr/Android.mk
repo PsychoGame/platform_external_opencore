@@ -7,6 +7,7 @@ LOCAL_SRC_FILES := \
  	src/d_homing.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libomx_amr_component_lib
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS_MINUS_VISIBILITY)

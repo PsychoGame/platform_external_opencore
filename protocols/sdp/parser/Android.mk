@@ -20,6 +20,7 @@ LOCAL_SRC_FILES := \
  	src/sdp_mediaparser_registry_populator.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvsdpparser
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)

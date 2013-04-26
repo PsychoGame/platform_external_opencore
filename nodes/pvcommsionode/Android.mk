@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := \
  	src/pv_comms_io_node.cpp
 
 
+LOCAL_MODULE_TAGS := $(PV_MODULE_TAG)
 LOCAL_MODULE := libpvcommsionode
 
 LOCAL_CFLAGS :=  $(PV_CFLAGS)
